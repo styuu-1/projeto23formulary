@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+
+    <!-- Titulo -->
+    <title>Formulário de registro</title>
+    <!-- Titulo -->
+
+    <!-- Meta arquivos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="card, blog pessoal, informação">
+    <meta name="description" content="meu card pessoal feito especialmente para projeto, 01 projeto">
+    <meta name="author" content="Samuel Pacheco Falcão Rodrigues">
+    <meta name="robots" content="index, follow">
+    <!-- Meta arquivos -->
+
+    <!-- font cloudflare 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link css -->
+
+</head>
+
+<body>
+    <section class="container">
+        <header>Formulário de Registro</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label for="">Nome completo</label>
+                <input type="text" placeholder="Coloque seu nome completo" required>
+
+            </div>
+
+            <div class="input-box">
+                <label for="">Email</label>
+                <input type="text" placeholder="Coloque seu Email completo" required>
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label for="">Num. de celular</label>
+                    <input type="text" placeholder="Coloque seu número de celular completo" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="">Data de nascimento</label>
+                    <input type="text" placeholder="Coloque sua data de nascimento" required>
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Gênero</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">Homem</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">Mulher</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">Prefiro não responder</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-box addres">
+                <label>Endereço </label>
+                <input type="text" placeholder="Coloque seu Endereço" required>
+                <input type="text" placeholder="Coloque seu Número de entereço" required>
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option value="" hidden>País</option>
+                            <option value="">America</option>
+                            <option value="">Japão</option>
+                            <option value="">Brasil</option>
+                            <option value="">India</option>
+                        </select>
+                    </div>
+                </div>
+
+                <input type="text" placeholder="Coloque sua Cidade" required>
+                <input type="text" placeholder="Coloque sua Região" required>
+                <input type="text" placeholder="Coloque seu CEP" required>
+            </div>
+
+            <button type="button">Enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
